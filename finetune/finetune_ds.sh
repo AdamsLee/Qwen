@@ -23,10 +23,10 @@ MASTER_ADDR=${MASTER_ADDR:-localhost}
 # The port for communication
 MASTER_PORT=${MASTER_PORT:-6001}
 
-MODEL="Qwen/Qwen-7B" # Set the path if you do not want to load from huggingface directly
+MODEL="/mnt/nas/models/Qwen-7B-Chat" # Set the path if you do not want to load from huggingface directly
 # ATTENTION: specify the path to your training data, which should be a json file consisting of a list of conversations.
 # See the section for finetuning in README for more information.
-DATA="path_to_data"
+DATA="/mnt/nas/data/xyd.json"
 
 function usage() {
     echo '
