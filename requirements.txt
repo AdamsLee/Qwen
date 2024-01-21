@@ -4,3 +4,9 @@ tiktoken
 einops
 transformers_stream_generator==0.0.4
 scipy
+mpi4py
+peft
+deepspeed
+auto-gptq
+optimum
+flash-attn
