@@ -8,4 +8,5 @@ peft
 deepspeed
 auto-gptq
 optimum
+ninja
 flash-attn
