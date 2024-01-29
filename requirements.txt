@@ -10,3 +10,4 @@ auto-gptq
 optimum
 ninja
 flash-attn
+packaging
