@@ -10,3 +10,4 @@ auto-gptq
 optimum
 ninja
 packaging
+mpi4py
